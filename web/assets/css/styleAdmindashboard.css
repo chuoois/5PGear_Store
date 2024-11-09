@@ -1,0 +1,70 @@
+.sidebar {
+    background-color: #343a40; /* Màu nền sidebar */
+    min-height: 100vh; /* Chiều cao tối thiểu */
+}
+
+.sidebar .nav-link {
+    color: white;
+    font-size: 16px;
+    margin: 10px 0;
+    padding: 10px;
+    transition: background-color 0.3s ease-in-out;
+}
+
+.sidebar .nav-link:hover {
+    background-color: #495057; /* Màu khi hover */
+}
+
+.sidebar-heading {
+    color: #adb5bd;
+    font-size: 14px;
+    text-transform: uppercase;
+    margin-top: 20px;
+}
+input[type="date"] {
+    border-radius: 5px;
+    padding: 5px;
+    border: 1px solid #ced4da;
+    margin-right: 10px;
+}
+
+button[type="submit"] {
+    background-color: #007bff;
+    color: #fff;
+    padding: 8px 16px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button[type="submit"]:hover {
+    background-color: #0056b3;
+}
+.card {
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    border: none;
+    border-radius: 8px;
+    transition: transform 0.2s ease-in-out;
+}
+
+.card:hover {
+    transform: translateY(-5px); /* Di chuyển khi hover */
+}
+
+.card-header {
+    background-color: #007bff;
+    color: white;
+    font-weight: bold;
+    text-transform: uppercase;
+    padding: 10px;
+    border-bottom: none;
+}
+
+.input-time {
+    margin-bottom: 20px;
+}
+
+.row .col-md-4, .col-md-6 {
+    margin-bottom: 30px;
+}
